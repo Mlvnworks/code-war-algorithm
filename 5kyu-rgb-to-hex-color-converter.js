@@ -28,7 +28,3 @@ function rgb(r, g, b) {
     return hex.join('').toUpperCase();
 }
 
-console.log(rgb(142, 148, 224));
-
-const b1 = (document.querySelector('#b1').style.backgroundColor = 'rgba( 142,148,224)');
-const b2 = (document.querySelector('#b2').style.backgroundColor = `#${rgb(142, 148, 224)}`);
