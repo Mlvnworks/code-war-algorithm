@@ -26,6 +26,3 @@ function titleCase(title, minorWords) {
     return finalTitle;
 }
 
-console.log(titleCase('a clash of KINGS', 'a an the of'));
-console.log(titleCase('THE WIND IN THE WILLOWS', 'The In'));
-console.log(titleCase('the quick brown fox'));
